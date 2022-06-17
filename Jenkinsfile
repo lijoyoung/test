@@ -11,7 +11,7 @@ pipeline {
                     tags_extra = "value_1"
                 }
                 echo "tags_extra: ${tags_extra}"
-                echo "environment: ${ENV}"
+                echo "environment123: ${ENV}"
             }
         }
         stage('stage two') {
